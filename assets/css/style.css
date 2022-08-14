@@ -1,0 +1,308 @@
+body{
+    background-color: whitesmoke;
+    
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+#nav-area {
+    height: 100px;
+    background-color: white;
+    width: 100%;
+}
+
+
+
+#nav-area .logo img{
+    padding-left: 250px;
+    padding-top: 10px;
+    width: 400px;
+}
+
+#nav-area .navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1px;
+
+}
+
+#nav-area .navbar ul{
+    display: flex;
+    margin-top: -50px;
+    
+}
+
+
+#nav-area .navbar ul li{
+    list-style: none;
+    text-align: center;
+    padding: 37px;
+    font-size: 22px;
+    font-weight: 100;
+    justify-content: center;
+    
+}
+
+.navbar h2{
+    color: greenyellow;
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+    margin-top: -50px;
+
+}
+
+#nav-area .navbar ul li a{
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.navbar2 a{
+    color: black;
+    padding: 5px;
+    margin-top: 5px;
+    text-align: center;
+    padding-left: 20px;
+    justify-content: center;
+    padding-left: 10px;
+    margin-left: 50px;
+}
+
+.navbar h2 a{
+    text-decoration: none;
+    color: lightgreen;
+}
+#nav-area .navbar2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1px;
+    padding-left: 900px;
+    font-size: 30px ;
+}
+
+.covid-img{
+    margin-top: 40px;
+}
+
+.navbar3{
+    
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 150px;
+    background-color: whitesmoke;
+    margin-top: 5px;
+}
+.navbar3 a{
+
+margin-left: 20px;
+font-size: 30px;
+text-decoration: none;
+list-style: none;
+color: black;
+padding: 30px;
+opacity: 0.8;
+}
+
+
+
+.navbar3 h6{
+    margin-left: 50px;
+    text-decoration: none;
+    list-style: none;   
+}
+
+span{
+    padding-left: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    opacity: 0.8;
+}
+
+main{
+    display: flex;
+    text-decoration: none;
+    margin-top: 700px;
+    gap: 40px;
+    margin-left: 45px;
+}
+
+main a{
+    color: yellow;
+}
+main h3{
+    color: black;
+}
+
+main span{
+    font-size: 20px;
+}
+
+/* .col-3 {
+    width: 25%;
+}
+
+
+.col-9 {
+    width: 75%;
+} */
+
+
+.row img{
+    padding-top: 30px;
+    
+}
+
+.row {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 60%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    font-style:normal;
+  }
+
+  .row .btn {
+    position: absolute;
+    top: 80%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+  .row .btn:hover {
+    background-color: black;
+    color: white;
+  }
+
+  .top-left {
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    font-style:normal;
+    color: black;
+  }
+
+  .top-right{
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    font-style:normal;
+    color: black;
+  }
+
+  .top-left1{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    font-style:normal;
+    color: black;
+  }
+
+  .right{
+    position: absolute;
+    top: 40%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    font-style:normal;
+    color: white;
+  }
+
+  h3{
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 1.2em;
+    position: relative;
+    z-index: 1;
+    margin: 0 0 45px;
+    padding: 10px;
+    color: #000;
+    top: 30px;
+    left: 10%;
+    background-color: white;
+  }
+
+ .container-fluid{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+ }
+
+
+ .holder-pb-xsmall.holder-with-bg{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    display: block;
+
+ }
+
+ .bg-custom{
+    background-color: #33cad5;
+ }
+
+ .mt-0, .my-0{
+    margin-top: 0!important;
+ }
+
+ *, ::after, ::before{
+    box-sizing: border-box;
+ }
+
+ .page-footer{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000;
+   
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 100% auto;
+    
+}
+
+.title h4{
+    color: black;
+}
+ .footer-txt-block{
+    color: black;
+ }
+
+ .footer-block{
+    color: black;
+ }
+
+ .footer-block h4{
+color: black;
+ }
