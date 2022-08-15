@@ -11,87 +11,50 @@ body{
     
 }
 
-#nav-area {
-    height: 100px;
+.nav-area{
+    display: flex;
+    
+    
+}
+
+.row{
+    padding-bottom: 30px;
+}
+
+
+.container-fluid{
+    
     background-color: white;
-    width: 100%;
 }
 
-
-
-#nav-area .logo img{
-    padding-left: 250px;
-    padding-top: 10px;
-    width: 400px;
-}
-
-#nav-area .navbar{
+.container-fluid ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 1px;
-
-}
-
-#nav-area .navbar ul{
-    display: flex;
-    margin-top: -50px;
+    gap: 30px;
+    font-size: 20px;
+    padding-top: 20px;
     
 }
 
-
-#nav-area .navbar ul li{
-    list-style: none;
-    text-align: center;
-    padding: 37px;
-    font-size: 22px;
-    font-weight: 100;
-    justify-content: center;
-    
-}
-
-.navbar h2{
-    color: greenyellow;
-    list-style: none;
+.container-fluid ul li a{
     text-decoration: none;
-    align-items: center;
-    margin-top: -50px;
-
-}
-
-#nav-area .navbar ul li a{
-    text-decoration: none;
-    color: black;
-    margin-top: 10px;
-    justify-content: center;
-}
-
-.navbar2 a{
-    color: black;
-    padding: 5px;
-    margin-top: 5px;
-    text-align: center;
-    padding-left: 20px;
-    justify-content: center;
-    padding-left: 10px;
-    margin-left: 50px;
-}
-
-.navbar h2 a{
-    text-decoration: none;
-    color: lightgreen;
-}
-#nav-area .navbar2{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 1px;
-    padding-left: 900px;
-    font-size: 30px ;
+    color: black;
+    
+
 }
 
-.covid-img{
-    margin-top: 40px;
+.container-fluid i{
+    padding-top: 30px;
+    color: black;
+    font-size: 30px;
+    padding-left: 20px ;
+}
+
+.logo img{
+    padding-top: 30px;
+  
 }
 
 .navbar3{
@@ -114,13 +77,121 @@ padding: 30px;
 opacity: 0.8;
 }
 
+.first img{
+    padding: 50px;
+  transition: transform .2s; 
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+}
 
+.first:hover{
+    transform: scale(1.5);
+}
+
+.second img{
+    padding: 50px;
+  transition: transform .2s; 
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.second:hover{
+    transform: scale(1.5);
+}
+
+.third img{
+    padding: 50px;
+  transition: transform .2s; 
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.third:hover{
+    transform: scale(1.5);
+}
+
+.fourth img{
+    padding: 50px;
+  transition: transform .2s; 
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.fourth:hover{
+    transform: scale(1.5);
+}
+
+.fifth img{
+  padding: 50px;
+  transition: transform .2s; 
+  width: 580px;
+  height: 700px;
+  margin: 0 auto;
+}
+
+.fifth:hover{
+    transform: scale(1.1);
+}
+
+.sixth img{
+    padding: 50px;
+    transition: transform .2s; 
+    width: 500px;
+    height: 380px;
+    margin: 0 auto;
+  }
+  
+  .sixth:hover{
+      transform: scale(1.1);
+  }
+
+  .seventh img{
+    padding: 50px;
+    transition: transform .2s; 
+    width: 500px;
+    height: 380px;
+    margin: 0 auto;
+  }
+  
+  .seventh:hover{
+      transform: scale(1.1);
+  }
+
+  .eighth img{
+    padding: 50px;
+    transition: transform .2s; 
+    width: 500px;
+    height: 380px;
+    margin: 0 auto;
+  }
+  
+  .eighth:hover{
+      transform: scale(1.1);
+  }
+
+  .nineth img{
+    padding: 50px;
+    transition: transform .2s; 
+    width: 500px;
+    height: 380px;
+    margin: 0 auto;
+  }
+  
+  .nineth:hover{
+      transform: scale(1.1);
+  }
 
 .navbar3 h6{
     margin-left: 50px;
     text-decoration: none;
     list-style: none;   
 }
+
+
 
 span{
     padding-left: 50px;
@@ -148,6 +219,7 @@ main span{
     font-size: 20px;
 }
 
+
 /* .col-3 {
     width: 25%;
 }
@@ -172,7 +244,7 @@ main span{
 .centered {
     position: absolute;
     top: 60%;
-    left: 70%;
+    left: 60%;
     transform: translate(-50%, -50%);
     font-style:normal;
   }
@@ -218,7 +290,7 @@ main span{
   .top-left1{
     position: absolute;
     top: 50%;
-    left: 30%;
+    left: 35%;
     transform: translate(-50%, -50%);
     font-style:normal;
     color: black;
@@ -227,7 +299,7 @@ main span{
   .right{
     position: absolute;
     top: 40%;
-    left: 70%;
+    left: 60%;
     transform: translate(-50%, -50%);
     font-style:normal;
     color: white;
@@ -251,58 +323,48 @@ main span{
     background-color: white;
   }
 
- .container-fluid{
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-
- }
+ 
+  
 
 
- .holder-pb-xsmall.holder-with-bg{
-    padding-bottom: 30px;
-    padding-top: 30px;
-    display: block;
+ @media all and (max-width:768px) {
+    .row {
+        padding-top: 0;
+        padding-bottom: 10px;
+        margin: 1em 2em;
+    }
+    }
 
- }
-
- .bg-custom{
-    background-color: #33cad5;
- }
-
- .mt-0, .my-0{
-    margin-top: 0!important;
- }
-
- *, ::after, ::before{
-    box-sizing: border-box;
- }
-
- .page-footer{
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 24px;
-    color: #000;
-   
-    background-repeat: no-repeat;
-    background-position: center bottom;
-    background-size: 100% auto;
+    .end .links{
+        display: flex;
+    }
     
-}
+    .letter button {
+        width: 200px;
+        padding: 10px 0;
+        margin-top: 10px;
+        border-radius: 28px;
+        background-color: #33cad5;
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+        cursor: pointer;
+        border: none;
+    }
+    
+    .letter input {
+        border: 2px solid aliceblue;
+        border-radius: 20px;
+    }
+    
+    .letter h5 {
+        text-align: center;
+        
+    }
+    
+    .letter button:hover {
+        background-color: #282828;
+        color: #FAFAFA;
+    }
 
-.title h4{
-    color: black;
-}
- .footer-txt-block{
-    color: black;
- }
-
- .footer-block{
-    color: black;
- }
-
- .footer-block h4{
-color: black;
- }
+ 
